@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('email');
             $table->date('dob');
-            $table->json('courses')->nullable;
+            $table->string('courses')->nullable;
             $table->text('notes');
             $table->timestamps('');
         });
